@@ -1,0 +1,6 @@
+# Project exclude paths
+/out/
+_1_Java Programs From Basics.iml
+_2_Java Important Examples.iml
+Resources.iml
+.idea
