@@ -1,4 +1,4 @@
-package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+package Object_Oriented_Concepts.Interface;
 
 import java.util.Scanner;
 

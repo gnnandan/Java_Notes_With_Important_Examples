@@ -1,4 +1,4 @@
-package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+package Object_Oriented_Concepts.Interface;
 
 
 //If a class implements the interface then it should provide the body for all the methods present in the interface class.

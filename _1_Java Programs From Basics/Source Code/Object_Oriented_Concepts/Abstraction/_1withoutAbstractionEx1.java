@@ -1,4 +1,4 @@
-package Object_Oriented_Concepts.GettingStartedToJava.Abstraction;
+package Object_Oriented_Concepts.Abstraction;
 
 class vehicle
 {
