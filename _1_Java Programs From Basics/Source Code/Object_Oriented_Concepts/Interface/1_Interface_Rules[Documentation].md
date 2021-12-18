@@ -31,3 +31,11 @@ interface are public in nature.**
     The **child class of the implementing class can provide the body** for the remaining methods of interface.
 
 14. An interface can extend any number of interface.
+
+15. A class implements a interface, the interface extends another interface then the **implementing class should provide the body
+    for all the abstract methods in the hierarchy** 
+
+16. An interface **cannot implement another interface.**
+
+17. A **class can extends another class simultaneously it can implement the interface also** in this case the implementing class should extends first, and it
+    should implement
