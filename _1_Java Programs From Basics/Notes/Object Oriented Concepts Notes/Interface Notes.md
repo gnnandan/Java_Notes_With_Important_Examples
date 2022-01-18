@@ -90,7 +90,7 @@ Process finished with exit code 0
 - **Interface Example**
     
     ```jsx
-    package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
     
     import java.util.Scanner;
     
@@ -150,7 +150,7 @@ private
 - **RULE 1**
     
     ```java
-    package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
     
     import javax.naming.Name;
     
@@ -198,7 +198,7 @@ private
 - **RULE 2**
     
     ```java
-    package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
     
     //If a class implements the interface then it should provide the body for all the methods present in the interface class.
     //If the class is not in a position to provide the body for all the method  then class should be made as abstract.
@@ -261,7 +261,7 @@ private
 - **RULE 6**
     
     ```java
-    package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
     
     interface bank
     {
@@ -328,7 +328,7 @@ private
 - **RULE 7**
     
     ```java
-    package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
     
     interface union
     {
@@ -419,7 +419,7 @@ private
 - **RULE 8**
     
     ```java
-    package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
     
     interface c1
     {
@@ -470,7 +470,7 @@ the methods.**
 - **RULE 9, 10**
     
     ```java
-    package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
     
     interface data1
     {
@@ -531,7 +531,7 @@ The **child class of the implementing class can provide the body** for the remai
 - **RULE 13**
     
     ```java
-    package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
     
     interface operation
     {
@@ -599,7 +599,7 @@ The **child class of the implementing class can provide the body** for the remai
 - **RULE 14**
     
     ```java
-    package Object_Oriented_Concepts.GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
     
     interface calculate1
     {
@@ -665,9 +665,9 @@ The **child class of the implementing class can provide the body** for the remai
 
 - A class implements a interface, the interface extends another interface then the **implementing class should provide the body for all the abstract methods** in the hierarchy
 - **RULE 15**
-    
+
     ```java
-    package Object_Oriented_Concepts.Interface;
+    package Object_Oriented_Concepts._5_Interface;
     
     interface a1
     {
@@ -730,9 +730,9 @@ The **child class of the implementing class can provide the body** for the remai
 - A **class can extends another class simultaneously it can implement the interface also** in this case the implementing class should **extends first** and it 
 should implements
 - **RULE 17**
-    
+
     ```java
-    package Object_Oriented_Concepts.Interface;
+    package Object_Oriented_Concepts._5_Interface;
     
     class normalClass
     {
@@ -774,9 +774,9 @@ should implements
 
 - Adapter class is a normal class in java which **as empty body for all the abstract methods** of an interface.
 - **Adapter Class Example**
-    
+
     ```java
-    package Object_Oriented_Concepts.Interface.Adapter_Class;
+    package Object_Oriented_Concepts._5_Interface.Adapter_Class;
     
     interface adbstractMethods
     {
@@ -859,9 +859,9 @@ ref_Var instanceof Class_Name
 ```
 
 - **InstanceOf Example**
-    
+
     ```java
-    package Object_Oriented_Concepts.Interface.InstanceOf_Operator;
+    package Object_Oriented_Concepts._5_Interface.InstanceOf_Operator;
     
     abstract class animals
     {

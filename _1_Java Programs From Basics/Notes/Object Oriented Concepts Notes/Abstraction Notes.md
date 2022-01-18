@@ -166,7 +166,7 @@
          * here void start() method is overriding method
          * where its child classes is altering its property according to their requirement
          * anyway if we wrote ant thing in overridden method it won't get executed
-         * so inorder to hide the implementation we use Abstraction
+         * so inorder to hide the implementation we use _4_Abstraction
          */
     
         abstract void start(); //abstract method
@@ -354,7 +354,7 @@
     {
         public static void main(String[] args)
         {
-            System.out.println("Parent Reference Child Object(Polymorphism) & Abstraction");
+            System.out.println("Parent Reference Child Object(_3_Polymorphism) & _4_Abstraction");
             System.out.println();
     
             //parent class reference

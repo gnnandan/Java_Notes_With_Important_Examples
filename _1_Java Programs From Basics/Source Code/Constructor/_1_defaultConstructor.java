@@ -3,6 +3,7 @@ class data
 {
     String Name = "Nandan";
     String usn = "1";
+
     //default constructor
     data()
     {
