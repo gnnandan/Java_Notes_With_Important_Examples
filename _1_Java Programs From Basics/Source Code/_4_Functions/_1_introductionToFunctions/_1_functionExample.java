@@ -1,4 +1,4 @@
-package _4_functions._1_introductionToFunctions;
+package _4_Functions._1_introductionToFunctions;
 
 public class _1_functionExample
 {

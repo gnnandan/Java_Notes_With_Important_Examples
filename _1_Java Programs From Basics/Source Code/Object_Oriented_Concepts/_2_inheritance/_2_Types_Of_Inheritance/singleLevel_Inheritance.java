@@ -7,7 +7,7 @@ class parentClass
     {
         s = "From Parent/Super Class";
         System.out.println(s);
-        System.out.println("Ready To Inherit Properties(variable) and Behavior(_4_functions) to 'Child Class'");
+        System.out.println("Ready To Inherit Properties(variable) and Behavior(_4_Functions) to 'Child Class'");
     }
 
 }
@@ -18,7 +18,7 @@ class childClass extends parentClass
     {
         s = "From Child Class";
         System.out.println(s);
-        System.out.println("Inherited Properties(variable) and Behavior(_4_functions) from parent class");
+        System.out.println("Inherited Properties(variable) and Behavior(_4_Functions) from parent class");
     }
 }
 

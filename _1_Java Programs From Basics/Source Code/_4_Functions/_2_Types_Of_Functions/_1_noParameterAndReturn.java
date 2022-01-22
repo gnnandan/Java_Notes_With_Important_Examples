@@ -1,4 +1,4 @@
-package _4_functions._2_Types_Of_Functions;
+package _4_Functions._2_Types_Of_Functions;
 
 import java.util.Scanner;
 

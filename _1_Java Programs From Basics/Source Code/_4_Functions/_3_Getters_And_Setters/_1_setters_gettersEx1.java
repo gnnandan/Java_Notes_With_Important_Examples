@@ -1,4 +1,4 @@
-package _4_functions._3_Getters_And_Setters;
+package _4_Functions._3_Getters_And_Setters;
 
 import java.util.Scanner;
 

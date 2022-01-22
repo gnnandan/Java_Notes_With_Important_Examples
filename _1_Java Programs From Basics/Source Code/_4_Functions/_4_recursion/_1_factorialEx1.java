@@ -1,4 +1,4 @@
-package _4_functions._4_recursion;
+package _4_Functions._4_recursion;
 
 import java.util.Scanner;
 
