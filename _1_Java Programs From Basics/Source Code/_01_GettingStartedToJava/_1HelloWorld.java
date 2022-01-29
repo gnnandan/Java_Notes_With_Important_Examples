@@ -1,4 +1,4 @@
-package _1_GettingStartedToJava;
+package _01_GettingStartedToJava;
 
 public class _1HelloWorld
 {

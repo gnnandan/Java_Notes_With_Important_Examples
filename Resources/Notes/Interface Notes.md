@@ -90,7 +90,7 @@ Process finished with exit code 0
 - **Interface Example**
     
     ```jsx
-    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     import java.util.Scanner;
     
@@ -150,7 +150,7 @@ private
 - **RULE 1**
     
     ```java
-    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     import javax.naming.Name;
     
@@ -198,7 +198,7 @@ private
 - **RULE 2**
     
     ```java
-    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     //If a class implements the interface then it should provide the body for all the methods present in the interface class.
     //If the class is not in a position to provide the body for all the method  then class should be made as abstract.
@@ -261,7 +261,7 @@ private
 - **RULE 6**
     
     ```java
-    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface bank
     {
@@ -328,7 +328,7 @@ private
 - **RULE 7**
     
     ```java
-    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface union
     {
@@ -419,7 +419,7 @@ private
 - **RULE 8**
     
     ```java
-    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface c1
     {
@@ -470,7 +470,7 @@ the methods.**
 - **RULE 9, 10**
     
     ```java
-    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface data1
     {
@@ -531,7 +531,7 @@ The **child class of the implementing class can provide the body** for the remai
 - **RULE 13**
     
     ```java
-    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface operation
     {
@@ -599,7 +599,7 @@ The **child class of the implementing class can provide the body** for the remai
 - **RULE 14**
     
     ```java
-    package Object_Oriented_Concepts._1_GettingStartedToJava.Interface;
+    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface calculate1
     {
