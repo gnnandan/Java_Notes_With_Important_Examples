@@ -123,13 +123,13 @@
         {
             //create a instance where ever extends is happening
             parentClass2 p2 = new parentClass2();
-            System.out.println("Calling members(_4_Functions) from child class");
+            System.out.println("Calling members(_04_Functions) from child class");
             p2.func1();
             p2.func2();
         }
     }
     //output
-    Calling members(_4_Functions) from child class
+    Calling members(_04_Functions) from child class
     Inside parent class 1
     Inside parent class 2
     ```
