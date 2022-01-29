@@ -1,4 +1,4 @@
-package _10_iteratorInJava;
+package _1_10_iteratorInJava;
 
 import java.util.ArrayList;
 import java.util.Iterator;
