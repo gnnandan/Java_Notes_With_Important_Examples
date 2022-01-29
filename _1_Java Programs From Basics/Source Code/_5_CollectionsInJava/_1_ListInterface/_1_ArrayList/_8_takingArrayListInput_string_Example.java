@@ -1,9 +1,9 @@
-package _6_ArrayListInJava;
+package _5_CollectionsInJava._1_ListInterface._1_ArrayList;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class _3_takingArrayListInput_string_Example
+public class _8_takingArrayListInput_string_Example
 {
     public static void main(String[] args)
     {
