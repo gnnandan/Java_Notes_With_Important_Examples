@@ -1,6 +1,5 @@
 package _2_Algorithms._01_Sorting_Algorithms._01_Bubble_Sort;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
@@ -36,7 +35,7 @@ class bubbleSort
             for(int j=0;j<arraySize-i-1;j++)
             {
                 //left element > right element then swap
-                if(arr[i]>arr[j+1])
+                if(arr[j]>arr[j+1])
                 {
                     //swapping logic
                     int temp = arr[j];
@@ -55,15 +54,17 @@ class bubbleSort
 }
 
 
-public class _1_bubbleSort_Example
+public class _1_Bubble_Sort_Example
 {
     public static void main(String[] args)
     {
         int unSorted[] = {100,200,-123,-1,232,0,1,2};
 
+
         bubbleSort.bubbleSortTechnique(unSorted);
 
         String sorted = Arrays.toString(unSorted);
+
         System.out.println("'Bubble Sort' The sorted elements are: "+sorted);
 
     }
