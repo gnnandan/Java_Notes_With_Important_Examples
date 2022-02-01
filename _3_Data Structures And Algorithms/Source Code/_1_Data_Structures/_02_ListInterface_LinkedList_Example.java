@@ -8,8 +8,8 @@ import java.util.Scanner;
  * @Important Operations
  * 1. Pushing element on the top of the linked list  -- push()
  * 2. Popping element from the top of the linked list --pop()
- * 3. Displaying element on the top of the linked list --peak()
- * 4. Searching element in the linked list -- search()
+ * 3. Displaying element on the top of the linked list
+ * 4. Searching element in the linked list
  */
 
 //circular linked list
