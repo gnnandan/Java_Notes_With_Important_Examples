@@ -90,7 +90,7 @@ Process finished with exit code 0
 - **Interface Example**
     
     ```jsx
-    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
+    package _08_Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     import java.util.Scanner;
     
@@ -148,11 +148,9 @@ private
 
 - When a class is implementing the interface **the methods access modifiers should be made as public** because by default all the abstract method in interface are public in nature.
 - **RULE 1**
-    
+
     ```java
-    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
-    
-    import javax.naming.Name;
+    package _08_Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface data
     {
@@ -196,9 +194,9 @@ private
 
 - If a **class implements the interface then it should provide the body for all the methods present** in the interface class. If the class is **not in a position to provide the body for all the method  then class should be made as abstract.**
 - **RULE 2**
-    
+
     ```java
-    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
+    package _08_Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     //If a class implements the interface then it should provide the body for all the methods present in the interface class.
     //If the class is not in a position to provide the body for all the method  then class should be made as abstract.
@@ -259,9 +257,9 @@ private
 
 - Using the **interface ref (parent ref)** the implemented methods of a **class can be accessed**  and using **interface ref polymorphism** can be achieved
 - **RULE 6**
-    
+
     ```java
-    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
+    package _08_Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface bank
     {
@@ -326,9 +324,9 @@ private
 
 - Using the **interface ref** only the overridden method can be accessed in order to access the specialized methods **downcasting has to be performed**.
 - **RULE 7**
-    
+
     ```java
-    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
+    package _08_Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface union
     {
@@ -417,9 +415,9 @@ private
 
 - A interface class can be implemented **any number of interface**
 - **RULE 8**
-    
+
     ```java
-    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
+    package _08_Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface c1
     {
@@ -468,9 +466,9 @@ private
 - **RULE 10** -  If two interface contains **same method name and return type  and change in parameter** then the implementation class should provide the body **for all 
 the methods.**
 - **RULE 9, 10**
-    
+
     ```java
-    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
+    package _08_Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface data1
     {
@@ -529,9 +527,9 @@ The **child class of the implementing class can provide the body** for the remai
 - If the implementing class is not able to provide the body for all the methods of interface then **the implementing class should be made as abstract**.
 The **child class of the implementing class can provide the body** for the remaining methods of interface.
 - **RULE 13**
-    
+
     ```java
-    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
+    package _08_Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface operation
     {
@@ -597,9 +595,9 @@ The **child class of the implementing class can provide the body** for the remai
 
 - An interface can extend any number of interface.
 - **RULE 14**
-    
+
     ```java
-    package Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
+    package _08_Object_Oriented_Concepts._01_GettingStartedToJava.Interface;
     
     interface calculate1
     {
@@ -667,7 +665,7 @@ The **child class of the implementing class can provide the body** for the remai
 - **RULE 15**
 
     ```java
-    package Object_Oriented_Concepts._5_Interface;
+    package _08_Object_Oriented_Concepts._5_Interface;
     
     interface a1
     {
@@ -732,7 +730,7 @@ should implements
 - **RULE 17**
 
     ```java
-    package Object_Oriented_Concepts._5_Interface;
+    package _08_Object_Oriented_Concepts._5_Interface;
     
     class normalClass
     {
@@ -776,7 +774,7 @@ should implements
 - **Adapter Class Example**
 
     ```java
-    package Object_Oriented_Concepts._5_Interface.Adapter_Class;
+    package _08_Object_Oriented_Concepts._5_Interface.Adapter_Class;
     
     interface adbstractMethods
     {
@@ -861,7 +859,7 @@ ref_Var instanceof Class_Name
 - **InstanceOf Example**
 
     ```java
-    package Object_Oriented_Concepts._5_Interface.InstanceOf_Operator;
+    package _08_Object_Oriented_Concepts._5_Interface.InstanceOf_Operator;
     
     abstract class animals
     {
