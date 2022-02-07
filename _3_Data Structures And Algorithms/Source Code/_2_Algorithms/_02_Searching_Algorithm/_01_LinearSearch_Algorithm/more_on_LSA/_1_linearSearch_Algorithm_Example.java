@@ -1,4 +1,4 @@
-package _2_Algorithms._02_Searching_Algorithm._01_LinearSearch_Algorithm;
+package _2_Algorithms._02_Searching_Algorithm._01_LinearSearch_Algorithm.more_on_LSA;
 
 public class _1_linearSearch_Algorithm_Example
 {
