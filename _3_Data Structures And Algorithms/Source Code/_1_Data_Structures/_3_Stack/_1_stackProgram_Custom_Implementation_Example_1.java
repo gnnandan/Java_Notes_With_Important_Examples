@@ -1,7 +1,5 @@
 package _1_Data_Structures._3_Stack;
 
-import java.io.IOException;
-
 class customStack
 {
     //as we know that stack is built on array, so we required array of some size
@@ -78,7 +76,7 @@ class customStack
 }
 
 
-public class _1_stackProgram_Custom_Implementation_Example
+public class _1_stackProgram_Custom_Implementation_Example_1
 {
     public static void main(String[] args) throws Exception
     {

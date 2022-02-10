@@ -76,7 +76,7 @@ class stackCustomImplementation
     }
 }
 
-public class _3_Stack_Custom_Implementation_Example
+public class _3_Stack_Custom_Implementation_Example_3
 {
     public static void main(String[] args) throws Exception
     {
