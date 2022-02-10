@@ -1,3 +1,5 @@
+package examples;
+
 import java.util.Scanner;
 
 public class _2reversingStringEx2

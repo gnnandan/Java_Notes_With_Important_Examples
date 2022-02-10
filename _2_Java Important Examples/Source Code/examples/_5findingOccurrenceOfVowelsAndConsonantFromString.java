@@ -1,4 +1,5 @@
-import java.util.Locale;
+package examples;
+
 import java.util.Scanner;
 
 public class _5findingOccurrenceOfVowelsAndConsonantFromString
