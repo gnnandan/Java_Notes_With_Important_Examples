@@ -1,4 +1,4 @@
-public class _14_voweles_or_consonants
+public class _14_vowels_or_consonants
 {
     public static void main(String[] args)
     {
