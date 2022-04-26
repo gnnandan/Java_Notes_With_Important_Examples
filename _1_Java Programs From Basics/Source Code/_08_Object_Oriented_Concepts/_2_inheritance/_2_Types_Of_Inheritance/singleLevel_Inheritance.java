@@ -1,24 +1,18 @@
 package _08_Object_Oriented_Concepts._2_inheritance._2_Types_Of_Inheritance;
 
-class parentClass
+class parentClass //parent class
 {
-    String s;
     void parentMethod()
     {
-        s = "From Parent/Super Class";
-        System.out.println(s);
-        System.out.println("Ready To Inherit Properties(variable) and Behavior(_04_Functions) to 'Child Class'");
+        System.out.println("Parent Class");
     }
 
 }
-class childClass extends parentClass
+class childClass extends parentClass // child class
 {
-    String s;
     void childMethod()
     {
-        s = "From Child Class";
-        System.out.println(s);
-        System.out.println("Inherited Properties(variable) and Behavior(_04_Functions) from parent class");
+        System.out.println("Single Level Inheritance: Child Class");
     }
 }
 
@@ -28,10 +22,8 @@ public class singleLevel_Inheritance
     {
         System.out.println("Every Program starts to executes from 'Main Method'");
         System.out.println("Execution starts");
-        System.out.println("------------------------------------");
         childClass cc = new childClass();
         cc.childMethod();
-        System.out.println("------------------------------------");
         System.out.println("Execution ends");
     }
 }

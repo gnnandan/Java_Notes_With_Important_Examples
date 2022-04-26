@@ -3,6 +3,12 @@ package _08_Object_Oriented_Concepts._5_Interface;
 import java.util.Scanner;
 
 /** @interface_class */
+abstract class test
+{
+    public abstract void abstractFunction(); //abstract method without body/implementation
+
+
+}
 
 interface calculate
 {

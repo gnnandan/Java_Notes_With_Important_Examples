@@ -2,14 +2,14 @@
     - **RULE 1**
 
         ```java
-        public void test(int a)
+        public void _Assignment_Series.Live_Test.findingMinimalElement(int a)
         {
             ---------
                 -----------
                 -----
         }
         
-        --> test(int a)				// method signature
+        --> _Assignment_Series.Live_Test.findingMinimalElement(int a)				// method signature
         ```
 
 - **RULE 2:** **Non-static to static method overriding and static to non-static method overriding is not permitted in java.**

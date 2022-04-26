@@ -2,9 +2,16 @@ package _08_Object_Oriented_Concepts._2_inheritance._1_Points_To_Remember;
 
 class parentClass33
 {
+    parentClass33()
+    {
+
+        System.out.println("This is parent class default constructor");
+    }
+
     int i,j;
     parentClass33(int k)
     {
+        this();
         i=111;
         j=222;
         System.out.println("k is: "+k);

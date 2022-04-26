@@ -17,3 +17,7 @@ public class _1_functionExample
         System.out.println("Inside The User Defined Function");
     }
 }
+
+//output
+//Inside Main Function
+//Inside The User Defined Function

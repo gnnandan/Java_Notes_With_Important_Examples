@@ -645,10 +645,10 @@ The **child class of the implementing class can provide the body** for the remai
     {
         public static void main(String[] args)
         {
-            Test test = new Test();
-            test.add();
-            test.sub();
-            test.mul();
+            Test _Assignment_Series.Live_Test.findingMinimalElement = new Test();
+            _Assignment_Series.Live_Test.findingMinimalElement.add();
+            _Assignment_Series.Live_Test.findingMinimalElement.sub();
+            _Assignment_Series.Live_Test.findingMinimalElement.mul();
         }
     }
     

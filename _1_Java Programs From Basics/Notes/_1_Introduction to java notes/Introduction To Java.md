@@ -348,7 +348,7 @@ FEATURES
     
     39. super – Refers to a class’s base class (used in a method or class constructor)
     
-    40. switch - A statement that executes code based on a test value
+    40. switch - A statement that executes code based on a _Assignment_Series.Live_Test.findingMinimalElement value
     
     41. synchronized -Specifies critical sections or methods in multithreaded code
     
