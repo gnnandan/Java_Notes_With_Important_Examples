@@ -16,7 +16,7 @@ public class _1_simpleprogram_Example
 
         /*
         Way - 3 {DECLARATION + INITIALIZATION + MEMORY ALLOCATION}
-        int marks[] = {100, 87,88,76,75}
+        int marks[] = {100, 87, 88, 76, 75}
         */
 
         //adding or initializing data  to array
