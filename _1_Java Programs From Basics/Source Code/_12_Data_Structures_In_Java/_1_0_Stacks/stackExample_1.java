@@ -1,4 +1,4 @@
-package _12_Data_Structures_In_Java._1_Stacks;
+package _12_Data_Structures_In_Java._1_0_Stacks;
 
 class basicStack<x>
 {

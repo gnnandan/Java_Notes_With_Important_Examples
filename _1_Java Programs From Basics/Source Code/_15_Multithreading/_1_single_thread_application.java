@@ -1,4 +1,4 @@
-package _14_Multithreading;
+package _15_Multithreading;
 
 //single thread application
 class singleThreadExample_class1

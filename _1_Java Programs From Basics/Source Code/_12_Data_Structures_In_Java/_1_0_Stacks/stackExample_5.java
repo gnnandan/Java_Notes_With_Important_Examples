@@ -1,4 +1,4 @@
-package _12_Data_Structures_In_Java._1_Stacks;
+package _12_Data_Structures_In_Java._1_0_Stacks;
 
 class stack
 {
@@ -71,6 +71,10 @@ public class stackExample_5
         newStack.push(40);
         newStack.push(50);
 
+        newStack.pop();
+
         newStack.peek();
+
+
     }
 }

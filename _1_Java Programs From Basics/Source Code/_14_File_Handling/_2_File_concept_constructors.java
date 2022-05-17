@@ -1,4 +1,4 @@
-package _13_File_Handling;
+package _14_File_Handling;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,7 +30,7 @@ public class _2_File_concept_constructors
     static void createFileSD() throws IOException
     {
         //create a file: new File(String subDirName, String name);
-        File file = new File("C:\\Users\\NANDANGN\\Desktop\\Learning Resources\\Java Notes With Important Examples\\_1_Java Programs From Basics\\Source Code\\_13_File_Handling\\Files","fileConstructor.txt"); //creates in current working directory
+        File file = new File("C:\\Users\\NANDANGN\\Desktop\\Learning Resources\\Java Notes With Important Examples\\_1_Java Programs From Basics\\Source Code\\_14_File_Handling\\Files","fileConstructor.txt"); //creates in current working directory
 
         System.out.println("Check file in sub-directory? "+file.exists()); //check file existence
 

@@ -1,4 +1,4 @@
-package _12_Data_Structures_In_Java._2_Queues;
+package _12_Data_Structures_In_Java._2_0_Queues;
 
 class queues
 {

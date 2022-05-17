@@ -1,5 +1,5 @@
 //file concepts
-package _13_File_Handling;
+package _14_File_Handling;
 
 import java.io.File;
 
@@ -8,7 +8,7 @@ public class _1_File_concept_1
     public static void main(String[] args)
     {
         //check if file exists
-        File chkList = new File("C:\\Users\\NANDANGN\\Desktop\\Learning Resources\\Java Notes With Important Examples\\_1_Java Programs From Basics\\Source Code\\_13_File_Handling\\Files\\welcome.txt");
+        File chkList = new File("C:\\Users\\NANDANGN\\Desktop\\Learning Resources\\Java Notes With Important Examples\\_1_Java Programs From Basics\\Source Code\\_14_File_Handling\\Files\\welcome.txt");
         System.out.println("File present? "+chkList.exists());
 
         //file name

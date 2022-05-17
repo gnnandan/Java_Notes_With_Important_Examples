@@ -1,4 +1,4 @@
-package _14_Multithreading;
+package _15_Multithreading;
 
 class MyThread1 extends Thread
 {

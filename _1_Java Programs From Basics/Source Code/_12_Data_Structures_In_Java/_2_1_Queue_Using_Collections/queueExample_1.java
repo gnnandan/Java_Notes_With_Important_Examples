@@ -1,4 +1,4 @@
-package _12_Data_Structures_In_Java._2_Queue_Using_Collections;
+package _12_Data_Structures_In_Java._2_1_Queue_Using_Collections;
 
 import java.util.Iterator;
 import java.util.LinkedList;

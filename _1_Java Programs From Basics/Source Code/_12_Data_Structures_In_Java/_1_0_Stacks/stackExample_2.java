@@ -1,4 +1,4 @@
-package _12_Data_Structures_In_Java._1_Stacks;
+package _12_Data_Structures_In_Java._1_0_Stacks;
 
 class stackClass<x>
 {
@@ -81,6 +81,9 @@ public class stackExample_2
         ele.display();
 
         System.out.println("\nThe element at the top: "+  ele.peek());//return top element
+
+        ele.pop();
+        ele.display();
 
         System.out.println("\nThe size of stack after all operation: "+ele.size());
     }
