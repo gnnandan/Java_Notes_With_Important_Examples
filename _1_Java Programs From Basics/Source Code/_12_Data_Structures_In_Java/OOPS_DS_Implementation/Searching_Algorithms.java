@@ -37,46 +37,37 @@ class searching
         }
     }
 
-    static class binarySearch
+}
+
+class binarySearch
+{
+    private static String[] arr;
+    static Scanner scanner = new Scanner(System.in);
+    public static int binarySearchAlgorithm(String arr[], String find)
     {
-        public static int binarySearchAlgorithm(String arr[], String find)
+        int mid;
+        int low=0;
+        int high = arr.length-1;
+
+        while(low<=high)
         {
-            int low=0;
-            int high = arr.length-1;
-            int mid;
-            while (low<=high)
+
+            mid = low + (high-low)/2;
+            int res = arr[mid].compareTo(find);
+            if(res==0)
             {
-                mid = (low+high)/2;
-                if(arr[mid].compareTo(find)>0)
-                {
-                    high = mid-1;
-                }
-                else if(arr[mid].compareTo(find)<0)
-                {
-                    low = mid+1;;
-                }
-                else
-                {
-                    return mid;
-                }
+                return mid;
             }
-            return -1;
+            else if(res>0)
+            {
+                low = mid +1;
+            }
+            else
+            {
+                high = mid -1;
+            }
         }
-        public static void driveMethod(String arr[])
-        {
-            System.out.print("BINARY SEARCH: Enter the name to find: ");
-            String name = scanner.next();
-            int found = binarySearchAlgorithm(arr,name);
-            System.out.println(found);
-//            if(found==-1)
-//            {
-//                System.out.println("The name "+name+" not found");
-//            }
-//            else
-//            {
-//                System.out.println("The name "+name+" found at position: "+found);
-//            }
-        }
+        return -1;
     }
 }
 public class Searching_Algorithms
@@ -85,6 +76,9 @@ public class Searching_Algorithms
     {
         String arr[] = {"Nandan", "Yashas", "Ganesh", "Anand", "Pavan","Suhas"};
         //searching.linearSearch.driveMethod(arr);
-        searching.binarySearch.driveMethod(arr);
+
+        System.out.println(binarySearch.binarySearchAlgorithm(arr, "Nandan"));
     }
 }
+
+//TODO-> binarysearch is having

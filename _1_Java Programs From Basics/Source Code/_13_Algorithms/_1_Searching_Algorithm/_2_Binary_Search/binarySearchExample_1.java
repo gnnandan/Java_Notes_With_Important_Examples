@@ -35,7 +35,8 @@ public class binarySearchExample_1
             {
                 return mid;
             }
-            else if (arr[mid]>find)            {
+            else if (arr[mid]>find)
+            {
                 high = mid - 1;
             }
             else
